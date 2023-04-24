@@ -4,69 +4,69 @@
         "name": "Atraxa, Grand Unifier",
         "description": "Normal",
         "image": "https://cards.scryfall.io/large/front/4/a/4a1f905f-1d55-4d02-9d24-e58070793d3f.jpg?1676519555",
-        "price": "19.09"
+        "price": 19.99
     },
     {
         "id": 2,
         "name": "Ragavan, Nimble Pilferer",
         "description": "Multiverse Legends",
         "image": "https://cards.scryfall.io/large/front/f/c/fc898fec-4cc6-4587-b556-c5a8d38ccbd0.jpg?1682347338",
-        "price": "47.36"
+        "price": 47.99
     },
     {
         "id": 3,
         "name": "Solitude",
         "description": "Borderlless Full Art",
         "image": "https://cards.scryfall.io/large/front/f/e/febad44a-eaf0-4122-87c5-a12d17f28392.jpg?1628337214",
-        "price": "48.75"
+        "price": 48.99
     },
     {
         "id": 4,
         "name": "Endurance",
         "description": "Borderlless Full Art",
         "image": "https://cards.scryfall.io/large/front/1/f/1fc6d14a-1328-4032-ad9e-cd85cd365bd3.jpg?1627265232",
-        "price": "45.93"
+        "price": 45.99
     },
     {
         "id": 5,
         "name": "Fury",
         "description": "Borderless Full Art",
         "image": "https://cards.scryfall.io/large/front/0/7/071daca8-ccc6-4707-843e-adac40dd1588.jpg?1627262397",
-        "price": "42.51"
+        "price": 42.99
     },
     {
         "id": 6,
         "name": "Demonic Tutor",
         "description": "Strixhaven: Mystical Archive",
         "image": "https://cards.scryfall.io/large/front/3/0/3009ba46-c9f8-46dc-8ffc-2aa4cef7b17c.jpg?1623779988",
-        "price": "52.13"
+        "price": 52.99
     },
     {
         "id": 7,
         "name": "Shadowspear",
         "description": "Normal",
         "image": "https://cards.scryfall.io/large/front/7/6/769326d4-60af-4b19-85d9-d96d3acdb56e.jpg?1661583495",
-        "price": "18.07"
+        "price": 18.99
     },
     {
         "id": 8,
         "name": "Urza's Saga",
         "description": "Sketch Foil",
         "image": "https://cards.scryfall.io/large/front/2/1/2138dfbb-a4e3-49db-b908-95d0b2b7e82f.jpg?1669882873",
-        "price": "54.80"
+        "price": 54.99
     },
     {
         "id": 9,
         "name": "Thalia and the Gitrog Monster",
         "description": "Multiverse Legends",
         "image": "https://cards.scryfall.io/large/front/4/3/43c4eb73-7e50-4c22-8fa6-c770152ebdaf.jpg?1682348342",
-        "price": "6.65"
+        "price": 6.99
     },
     {
         "id": 10,
         "name": "Deathrite Shaman",
         "description": "Secret Lair Drop Series",
         "image": "https://cards.scryfall.io/large/front/9/7/9793f0a1-ab76-46e2-add2-200c2a9693b4.jpg?1674178361",
-        "price": "17.36"
+        "price": 17.99
     }
 ]
