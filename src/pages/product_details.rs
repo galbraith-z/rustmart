@@ -18,8 +18,8 @@ pub struct ProductDetail {
     link: ComponentLink<Self>,
     task: Option<FetchTask>,
 }
-
 #[derive(Properties, Clone)]
+
 pub struct Props {
     pub id: i32,
     pub on_add_to_cart: Callback<Product>,
@@ -93,6 +93,7 @@ impl Component for ProductDetail {
                     <div class="product_card_price">{"$"}{&product.price}</div>
                     <AtcButton product={product.clone()} on_add_to_cart=self.props.on_add_to_cart.clone()/>
                 </div>
+                
             }
         } else if !self.state.get_product_loaded {
             html! {

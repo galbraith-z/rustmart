@@ -43,6 +43,11 @@ impl Component for Navbar {
                         <i class="fa-solid fa-arrow-rotate-right"></i>
                     </button>
                 </div>
+                <div>
+                    <button class="back_button" onClick="window.history.back();">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                </div>
             </div>
         }
     }
