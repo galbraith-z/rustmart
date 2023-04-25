@@ -95,7 +95,7 @@ impl Component for ProductDetail {
                     <AtcButton product={product.clone()} on_add_to_cart=self.props.on_add_to_cart.clone()/>
                 </div>
                 <div class="back_button">
-                    <a href="/index.html">{"Back"}</a>
+                    <a href="/.">{"Back"}</a>
                 </div>
                 </>
                 
