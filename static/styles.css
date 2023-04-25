@@ -58,10 +58,12 @@ body {
   border-radius: var(--border-radius);
 }
 
-.clear_cart_button {
+.clear_cart_button,
+.cart_button {
   font-weight: bold;
   font-size: calc(var(--font-size) * 0.8);
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
   background: var(--accent-clr-dark);
   border: none;
   color: var(--primary-clr-light);

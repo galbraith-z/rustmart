@@ -38,7 +38,12 @@ impl Component for Navbar {
             <div class="navbar">
                 <div class="navbar_title">{"RUSTMART Mtg"}</div>
                 <div class="navbar_cart_value">
+                    <button class="cart_button" onClick="location.href='https://rustmartmtg.com/'">
+                        <i class="fa-solid fa-shopping-cart"></i>
+                    </button>
+
                     {format!("${:.2}", cart_value)}
+
                     <button class="clear_cart_button" onClick="location.href='https://rustmartmtg.com/'">
                         <i class="fa-solid fa-arrow-rotate-right"></i>
                     </button>
