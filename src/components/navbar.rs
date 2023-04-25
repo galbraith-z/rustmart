@@ -39,13 +39,8 @@ impl Component for Navbar {
                 <div class="navbar_title">{"RUSTMART Mtg"}</div>
                 <div class="navbar_cart_value">
                     {format!("${:.2}", cart_value)}
-                    <button class="clear_cart_button" onClick="window.location.reload();">
+                    <button class="clear_cart_button" onClick="window.location.href=window.location.href;">
                         <i class="fa-solid fa-arrow-rotate-right"></i>
-                    </button>
-                </div>
-                <div>
-                    <button class="back_button" onClick="window.history.back();">
-                        <i class="fa-solid fa-arrow-left"></i>
                     </button>
                 </div>
             </div>

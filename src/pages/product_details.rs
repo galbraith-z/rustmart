@@ -86,6 +86,7 @@ impl Component for ProductDetail {
     fn view(&self) -> Html {
         if let Some(ref product) = self.state.product {
             html! {
+                <>
                 <div class="product_detail_container">
                     <img class="product_detail_image" src={&product.image}/>
                     <div class="product_card_name">{&product.name}</div>
@@ -93,6 +94,10 @@ impl Component for ProductDetail {
                     <div class="product_card_price">{"$"}{&product.price}</div>
                     <AtcButton product={product.clone()} on_add_to_cart=self.props.on_add_to_cart.clone()/>
                 </div>
+                <div class="back_button">
+                    <a href="/index.html">{"Back"}</a>
+                </div>
+                </>
                 
             }
         } else if !self.state.get_product_loaded {
